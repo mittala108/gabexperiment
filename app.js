@@ -17,7 +17,7 @@ app.listen(port,()=>{
     console.log(`listening to the port at ${port}`);
 });
 
-mongoose.connect('mongodb+srv://mittala108:Ytrewq12%40@cluster0.noefbqj.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://ghumakkadAdda:Mangodbservice%40ghumakkadadda@cluster0.qgpqrvv.mongodb.net/?retryWrites=true&w=majority')
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
